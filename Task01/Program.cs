@@ -8,3 +8,5 @@ string elementTwo = Console.ReadLine();
 Console.WriteLine("Введите массив 3");
 string elementThree = Console.ReadLine();
 Console.WriteLine("Вывод массива из строк, длина которых меньше или равна 3 символа:");
+
+string [] array = {elementOne, elementTwo, elementThree};
