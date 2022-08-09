@@ -10,3 +10,9 @@ string elementThree = Console.ReadLine();
 Console.WriteLine("Вывод массива из строк, длина которых меньше или равна 3 символа:");
 
 string [] array = {elementOne, elementTwo, elementThree};
+
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i].Length < 4) Console.Write(array[i] + " ");
+}
+Console.WriteLine();
